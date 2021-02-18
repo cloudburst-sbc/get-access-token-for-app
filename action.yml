@@ -5,7 +5,10 @@ inputs:
     description: Private key to use to create the access token
     required: true
   app_id:
-    description: ID of the installed app to retrieve the access token for
+    description: ID of the app to retrieve the access token for
+    required: true
+  installation_id:
+    description: Installation ID of the app 
     required: true
 outputs:
   token:

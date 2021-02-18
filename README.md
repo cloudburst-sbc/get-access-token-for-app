@@ -9,7 +9,11 @@ Action that can be used to retrieve an access token for an app installation usin
 
 ### `app_id`
 
-**Required**  ID of the installed app to retrieve the access token for
+**Required**  ID of the app to retrieve the access token for
+
+### `installation_id`
+
+**Required**  Installation ID of the app to retrieve the access token for
 
 ## Outputs
 
