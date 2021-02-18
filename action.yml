@@ -1,0 +1,16 @@
+name: 'Get Access Token For App'
+description: Action that can be used to retrieve an access token for an app installation using the app's private key.
+inputs:
+  private_key:
+    description: Private key to use to create the access token
+    required: true
+  app_id:
+    description: ID of the installed app to retrieve the access token for
+    required: true
+outputs:
+  token:
+    description: Access token that can be used with the GitHub API to perform actions on behalf of the installed app
+
+runs:
+  using: 'node12'
+  main: 'index.js'

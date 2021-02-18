@@ -1,0 +1,32 @@
+{
+  "name": "@cloudburst-sbc/get-access-token-for-app",
+  "version": "0.0.1",
+  "description": "JavaScript GitHub Action that can be used to retrieve an access token for an app installation using the app's private key.",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloudburst-sbc/get-access-token-for-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cloudburst-sbc/get-access-token-for-app/issues"
+  },
+  "homepage": "https://github.com/cloudburst-sbc/get-access-token-for-app#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "volta": {
+    "node": "12.20.2",
+    "npm": "6.14.11"
+  },
+  "devDependencies": {
+    "@cloudburst-sbc/prettier-config": "^1.0.6",
+    "jest": "^26.6.3",
+    "prettier": "^2.2.1"
+  }
+}
