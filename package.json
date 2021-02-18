@@ -4,7 +4,8 @@
   "description": "JavaScript GitHub Action that can be used to retrieve an access token for an app installation using the app's private key.",
   "main": "index.mjs",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "ncc build index.js --minify"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
   },
   "devDependencies": {
     "@cloudburst-sbc/prettier-config": "^1.0.6",
+    "@zeit/ncc": "^0.22.3",
     "jest": "^26.6.3",
     "prettier": "^2.2.1"
   }
