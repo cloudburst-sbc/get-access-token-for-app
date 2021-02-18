@@ -1,7 +1,6 @@
 const core = require('@actions/core');
-const Octokit = require('@octokit/core');
-const { createAppAuth } = require("@octokit/auth-app");
-const jwt = require('jsonwebtoken');
+const { Octokit } = require('@octokit/core');
+const { createAppAuth } = require('@octokit/auth-app');
 
 async function main() {
     try {

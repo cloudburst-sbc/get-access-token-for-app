@@ -19,8 +19,7 @@
   "dependencies": {
     "@actions/core": "^1.2.6",
     "@octokit/auth-app": "^2.11.0",
-    "@octokit/core": "^3.2.5",
-    "jsonwebtoken": "^8.5.1"
+    "@octokit/core": "^3.2.5"
   },
   "volta": {
     "node": "12.20.2",
